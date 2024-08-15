@@ -5,6 +5,7 @@ CommuniCare is an innovative healthcare application designed specifically for in
 
 It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and face movements in real time.
 
+
 ## Files Included
 
 
@@ -22,7 +23,10 @@ It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and f
 * This script designed for tracking eye movements. The script determines various eye actions, such as **blinking, moving left/right/up/down, and eye closure**, using pre-defined threshold values calculated in `Configure.py`. This functionality can be used to simulate **mouse clicks** or **cursor movements** for individuals with paralysis, facilitating digital interaction.
 * Features:
     * **Eye Blink Detection**: Tracks and counts eye blinks.
+         * https://github.com/user-attachments/assets/57adf1fd-b249-4a36-8e67-11586dee1218
+
     * **Eye Movement Detection**: Identifies eye movements in four directions: left, right, up, and down.
+       * https://github.com/user-attachments/assets/af02483b-de20-4e90-b345-9e9808258c64
 
 ### 3. HandTrackingModule.py
 * This module provides real-time hand tracking using OpenCV and MediaPipe. It detects hand landmarks and configures them to recognize gestures such as lifting specific fingers. This is used for gesture-based controls and other interactive applications.
@@ -32,6 +36,8 @@ It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and f
 
 ### 5. HandTappingModule.py
 * The `HandTappingModule` uses a `yolov8` model trained on custom dataset (`best.pt`). The module is used to identify whether the hand is lifted or not. This allows us to count the number of times the person has tapped the table which ultimately corresponds to different functionality.
+* https://github.com/user-attachments/assets/ccc828f2-2861-4f9a-b509-835d53619733
+
 
 ### 6. GUI.py
 * The GUI.py code provided outlines a Tkinter-based graphical user interface (GUI) for the CommuniCare application, a tool designed to assist individuals with mobility or communication difficulties through voice commands, gesture controls, and other assistive technologies.
