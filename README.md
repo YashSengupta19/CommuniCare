@@ -6,6 +6,10 @@ CommuniCare is an innovative healthcare application designed specifically for in
 It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and face movements in real time.
 
 
+https://github.com/user-attachments/assets/80ca9a13-c6ff-4e85-858b-3e86267e0416
+
+
+
 ## Files Included
 
 
@@ -22,11 +26,18 @@ It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and f
 ### 2. ParalysisMovements.py
 * This script designed for tracking eye movements. The script determines various eye actions, such as **blinking, moving left/right/up/down, and eye closure**, using pre-defined threshold values calculated in `Configure.py`. This functionality can be used to simulate **mouse clicks** or **cursor movements** for individuals with paralysis, facilitating digital interaction.
 * Features:
-    * **Eye Blink Detection**: Tracks and counts eye blinks.
-         * https://github.com/user-attachments/assets/57adf1fd-b249-4a36-8e67-11586dee1218
 
-    * **Eye Movement Detection**: Identifies eye movements in four directions: left, right, up, and down.
-       * https://github.com/user-attachments/assets/af02483b-de20-4e90-b345-9e9808258c64
+  **Eye Blink Detection**: Tracks and counts eye blinks.
+
+https://github.com/user-attachments/assets/d1ecf191-fade-4f79-9586-61b8e9aaafe1
+
+
+   **Eye Movement Detection**: Identifies eye movements in four directions: left, right, up, and down.
+    
+
+
+https://github.com/user-attachments/assets/6c61c629-98ec-4aa0-824b-52c6cdb1dc80
+
 
 ### 3. HandTrackingModule.py
 * This module provides real-time hand tracking using OpenCV and MediaPipe. It detects hand landmarks and configures them to recognize gestures such as lifting specific fingers. This is used for gesture-based controls and other interactive applications.
@@ -36,7 +47,8 @@ It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and f
 
 ### 5. HandTappingModule.py
 * The `HandTappingModule` uses a `yolov8` model trained on custom dataset (`best.pt`). The module is used to identify whether the hand is lifted or not. This allows us to count the number of times the person has tapped the table which ultimately corresponds to different functionality.
-   * https://github.com/user-attachments/assets/ccc828f2-2861-4f9a-b509-835d53619733
+
+ https://github.com/user-attachments/assets/ccc828f2-2861-4f9a-b509-835d53619733
 
 
 ### 6. GUI.py
