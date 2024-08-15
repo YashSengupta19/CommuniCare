@@ -36,7 +36,7 @@ It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and f
 
 ### 5. HandTappingModule.py
 * The `HandTappingModule` uses a `yolov8` model trained on custom dataset (`best.pt`). The module is used to identify whether the hand is lifted or not. This allows us to count the number of times the person has tapped the table which ultimately corresponds to different functionality.
-* https://github.com/user-attachments/assets/ccc828f2-2861-4f9a-b509-835d53619733
+   * https://github.com/user-attachments/assets/ccc828f2-2861-4f9a-b509-835d53619733
 
 
 ### 6. GUI.py
