@@ -31,7 +31,10 @@ Uploading demo.mp4…
 
   **Eye Blink Detection**: Tracks and counts eye blinks.
 
-https://github.com/user-attachments/assets/d1ecf191-fade-4f79-9586-61b8e9aaafe1
+
+
+
+https://github.com/user-attachments/assets/c4debce9-22a7-4880-84e1-ff1ffd24b896
 
 
    **Eye Movement Detection**: Identifies eye movements in four directions: left, right, up, and down.
