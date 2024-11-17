@@ -5,9 +5,7 @@ CommuniCare is an innovative healthcare application designed specifically for in
 
 It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and face movements in real time.
 
-
-Uploading demo.mp4…
-
+https://github.com/user-attachments/assets/8c8a5152-0954-4f68-ab2e-98fd87b05f9f
 
 
 
