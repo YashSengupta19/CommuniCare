@@ -6,7 +6,9 @@ CommuniCare is an innovative healthcare application designed specifically for in
 It heavily relies on `OpenCV` and `mediapipe` libraries to track the hands and face movements in real time.
 
 
-https://github.com/user-attachments/assets/80ca9a13-c6ff-4e85-858b-3e86267e0416
+Uploading demo.mp4…
+
+
 
 
 
@@ -36,7 +38,10 @@ https://github.com/user-attachments/assets/d1ecf191-fade-4f79-9586-61b8e9aaafe1
     
 
 
-https://github.com/user-attachments/assets/6c61c629-98ec-4aa0-824b-52c6cdb1dc80
+
+https://github.com/user-attachments/assets/21e89f2b-2b96-4363-aa92-65a241ab702d
+
+
 
 
 ### 3. HandTrackingModule.py
@@ -48,7 +53,10 @@ https://github.com/user-attachments/assets/6c61c629-98ec-4aa0-824b-52c6cdb1dc80
 ### 5. HandTappingModule.py
 * The `HandTappingModule` uses a `yolov8` model trained on custom dataset (`best.pt`). The module is used to identify whether the hand is lifted or not. This allows us to count the number of times the person has tapped the table which ultimately corresponds to different functionality.
 
- https://github.com/user-attachments/assets/ccc828f2-2861-4f9a-b509-835d53619733
+
+
+https://github.com/user-attachments/assets/b9846be7-0622-4ef8-9df9-a165d512da02
+
 
 
 ### 6. GUI.py
